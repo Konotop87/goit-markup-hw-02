@@ -1,38 +1,118 @@
-.body{
-    color: #212121;
-}
 
-.root {
+
+:root {
     --primery-text-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
+    --backgraund1: #2F303A;
+    --backgraund2: #E5E5E5;
+    --background3: #F5F4FA;
+
+
+
+    
 }
 
+.body {
+    color: var(--primery-text-color);
+background-color: var(--white-color);
+font-family: Roboto, Releway;
+}
 
+.list {
+    list-style: none;  
+}
 
-.heder-item:hover,
-.heder-item:focus {
+.title{
+    text-align: center;
+}
+
+/* Header */
+.heder-link{
+    text-decoration: none;
+}
+
+.heder-link:hover,
+.heder-link:focus{
+    color: var(--accent-color);
+    
+}
+
+.heder-link-contact {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.heder-link-contact:hover,
+.heder-link-contact:focus{
     color: var(--accent-color);
 }
-.heder-list-contact{
+
+
+
+
+/* HERO */
+
+.hero{
+    background-color: var(--backgraund1);
+}
+.mail-title{
+    color: var(--white-color);
+    text-transform: uppercase;
+    
+}
+
+.hero-btn{
+    background-color: var(--accent-color) ;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* Benefist */
+
+.benefist, .works{
+    background-color:var(--backgraund2);
+}
+
+.benefist-title{
+    text-transform: uppercase;
+}
+
+.benefist-desc{
     color: var(--text-color);
 }
 
-.heder-list-contac:hover,
-.heder-list-contac:focus{
-    color: var(--accent-color);
+
+
+
+/* TEAM */
+    .team{
+    background-color: var(--background3);
 }
 
-/*  Hero */
-
-.heder-logo{
-    color: var(--primery-text-color);
+.team-item{
+    background-color: var(--white-color);
+}
+.team-desc{
+    color: var(--text-color);
 }
 
+/* FOOTER */
 
-.list{
-    list-style: none;
+.footer{
+    background-color: var(--backgraund1);
 }
 
-.
+.contact-address-desc{
+    color: var(--white-color);
+}
+
+.contact-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: rgba(33, 150, 243, 0.6);
+}
