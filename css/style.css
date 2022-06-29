@@ -1,3 +1,38 @@
-:root{
-    
+.body{
+    color: #212121;
 }
+
+.root {
+    --primery-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+
+
+.heder-item:hover,
+.heder-item:focus {
+    color: var(--accent-color);
+}
+.heder-list-contact{
+    color: var(--text-color);
+}
+
+.heder-list-contac:hover,
+.heder-list-contac:focus{
+    color: var(--accent-color);
+}
+
+/*  Hero */
+
+.heder-logo{
+    color: var(--primery-text-color);
+}
+
+
+.list{
+    list-style: none;
+}
+
+.
