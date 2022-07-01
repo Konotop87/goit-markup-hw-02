@@ -19,7 +19,7 @@
 
 .body {
     color: var(--primery-text-color); 
-    font-family: var(--main-font), var(--secondary-font), sans-serif;   
+    font-family: var(--main-font), sans-serif;   
 }
 
 .list {
@@ -49,8 +49,11 @@
 }
 .heder-link:hover,
 .heder-link:focus{
+    color: var(--accent-color);   
+}
+
+.current {
     color: var(--accent-color);
-    
 }
 
 .heder-link-contact {
@@ -111,6 +114,14 @@ font-family: 'Raleway';
 }
 
 .hero-btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     background-color: var(--accent-color) ;
     color: var(--white-color);
     cursor: pointer;
@@ -133,7 +144,7 @@ font-family: 'Raleway';
 .benefist-desc{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -159,7 +170,7 @@ font-family: 'Raleway';
 .team-desc{
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
  color: var(--text-color);
@@ -192,6 +203,9 @@ letter-spacing: 0.03em;
     color: rgba(33, 150, 243, 0.6);
 }
 
+
+/* Portfolio */
+
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
@@ -202,7 +216,38 @@ letter-spacing: 0.03em;
 .portfolio-desc{
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
+.portfolio-bnt-current {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+
